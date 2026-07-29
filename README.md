@@ -1,6 +1,6 @@
 # Invoice OCR Pipeline
 
-A production pipeline that turns messy supplier invoices — both digital PDFs and scanned images — into structured, validated data and imports it directly into an ERP. **Running in production for 6 clients.**
+A production pipeline built as part of my role at **Gcom Tecnología**. It turns messy supplier invoices — both digital PDFs and scanned images — into structured, validated data and imports approved results directly into an ERP. **Running in production for 6 clients.**
 
 Built with the Claude Vision API as the extraction engine, wrapped in validation and retry logic to handle real-world invoice mess.
 
@@ -56,6 +56,14 @@ The extraction layer uses Claude Vision with structured-output prompting tuned f
 
 ---
 
+## What I owned
+
+Working under technical leadership at Gcom Tecnología, I was responsible for the extraction flow, structured-output prompts, tax and field validation, retry strategy, review experience and integration with the existing SIGE ERP.
+
+The public repository documents the architecture and decisions without exposing client source code, invoices or credentials.
+
+---
+
 ## Stack
 
 - **Extraction:** Claude Vision API (Anthropic)
@@ -65,4 +73,6 @@ The extraction layer uses Claude Vision with structured-output prompting tuned f
 
 ---
 
-*Part of a larger ERP ecosystem I built in a two-person team serving six clients, alongside e-commerce integrations (MercadoLibre, WooCommerce, MercadoPago).*
+*Professional project delivered at Gcom Tecnología as part of a broader ERP and e-commerce ecosystem serving multiple clients.*
+
+[View the visual case study](https://danisajuarez.netlify.app/projects/ocr)
